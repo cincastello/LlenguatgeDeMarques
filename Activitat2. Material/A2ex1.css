@@ -1,0 +1,47 @@
+h1 {
+    color: rgb(56, 117, 117);
+    font-family: arial;
+}
+h2 {
+    font-family: arial;
+    color: #cc22ff;
+}
+h3 {
+    color: #cc22ff;
+    font-family: arial; 
+}
+body {
+    font-family: serif; text-size-adjust: 1,2em;
+    background-color: #fddaef;
+}
+#Python::first-letter{
+    font-size: 300%;
+    font-style: bold;
+}
+#Python{
+    border: 2px solid #000000;
+    margin: 10px;
+}
+p{
+    line-height: 125%;
+}
+.p1{
+    color: #81cfe2;
+    text-decoration: underline;
+
+}
+.p2{
+    color: #f1f37e;
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    padding-left: 625px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}

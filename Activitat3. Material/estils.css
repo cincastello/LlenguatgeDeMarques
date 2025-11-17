@@ -1,0 +1,98 @@
+head{
+    background-color: gray;
+}
+h1 {
+    color: rgb(60, 120, 153);
+    font-family: arial;
+}
+header{
+    background-color: gray;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    gap: 25px;
+    padding-left: 625px;
+}
+#General{
+    background-color: white;
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;    
+}
+body{
+    background-color: yellow;
+}
+#imatge{
+    padding-top: 10px;
+    text-align: center;
+}
+#Esperal{
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+.imgu{
+    height: 15px;
+    width: 15px;
+}
+.imgd{
+    height: 15px;
+    width: 15px;
+}
+#ff{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer{
+    background-color: blueviolet;
+    text-align: center;
+}
+a:link, a:visited{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    background-color: gray;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: orange;
+}
+.pp{
+    text-align: center;
+}
+.pp img{
+    width: 100px;
+    height: 150px;
+}
+.aaa{
+    text-align: left;
+    margin-left: 10px;
+}
+.uii{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+#ff{
+    display: flex;
+}
+.uii img{
+    width: 800px;
+    height: 650px;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-left: 150px;
+}
+.ti{
+    color: rgb(56, 140, 146);
+    font-weight: bold;
+    list-style: url("img/icono-cine.png");
+}

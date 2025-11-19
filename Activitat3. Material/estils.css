@@ -21,9 +21,7 @@ nav{
     background-color: white;
     padding-top: 20px;
     margin-left: 150px;
-    margin-right: 150px;
-    padding-bottom: 10px;
-    
+    margin-right: 150px;    
 }
 body{
     background-color: yellow;
@@ -44,7 +42,7 @@ body{
     height: 15px;
     width: 15px;
 }
-#Tele{
+#ff{
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -52,7 +50,7 @@ footer{
     background-color: blueviolet;
     text-align: center;
 }
-a:link{
+a:link, a:visited{
     color: orange;
     text-decoration: none;
 }
@@ -60,6 +58,41 @@ a:hover{
     color: #000000;
     text-decoration: underline;
 }
-a:visited{
+p{
+    text-align: center;
+    background-color: gray;
+    margin-left: 600px;
+    margin-right: 600px;
     color: orange;
+}
+.pp{
+    text-align: center;
+}
+.pp img{
+    width: 100px;
+    height: 150px;
+}
+.aaa{
+    text-align: left;
+    margin-left: 10px;
+}
+.uii{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+#ff{
+    display: flex;
+}
+.uii img{
+    width: 800px;
+    height: 650px;
+    margin-bottom: 25px;
+    text-align: right;
+    margin-left: 150px;
+}
+.ti{
+    color: rgb(56, 140, 146);
+    font-weight: bold;
+    list-style: url("img/icono-cine.png");
 }

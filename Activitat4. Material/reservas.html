@@ -1,68 +1,109 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title> Hotel Terror Precios </title>
+    <title> Hotel Terror Reservas </title>
      <style type="text/css">
         @import url(estilos.css);
      </style>
-</head>
+</head> 
 <body>
-    <header>
+   <header>
+    <a href="index.html"><img id="estrelleta" src ="img/estrelles.jpg"></a>
         <nav>
             <ul>
-            <img id="estrelleta" src ="img/estrelles.jpg">
             <li><a href="index.html">Inicio</a></li>
             <li></li><a href="precios.html">Precios</a></li>
             <li><a href="reservas.html">Reserva</a></li>
             </ul>
-        </nav>
+        </nav> 
     </header>
-    <div id="ooo">
-    <h1><span class="r">Hotel Terror:</span> <span class="subtitul">Caracteristicas y precios</span></h1>
-    <table id="tatu">
-         <tr>
-            <th>Tipo de habitación</th>
-            <th>Personas</th>
-            <th>Características</th>
-            <th>Precio</th>
-         </tr>
-         <tr>
-            <td>Habitación individual</td>
-            <td><img src="img/individual.png"></td>
-            <td>Baño compartido, 20m², Microondas</td>
-            <td>70€</td>
-         </tr>
-         <tr>
-            <td>Habitación doble (1 o 2 camas)</td>
-            <td><img src="img/doble.png"><p>
-            </p>
-            <img src="img/individual.png"></td>
-            <td>Baño privado, 30m², Microondas</td>
-            <td>120€<p>
-            </p>90€</td>
-         </tr>
-         <tr>
-            <td>Habitación doble superior</td>
-            <td><img src="img/doble.png"></td>
-            <td>Baño privado, 35m², Zona de cocinar, Cama doble</td>
-            <td>140€<p>
-            </p>150€</td>
-         </tr>
-         <tr>
-            <td>Habitación triple (1, 2, o 3 camas)</td>
-            <td><img src="img/triple.png"><p>
-            </p><img src="img/doble.png"><p>
-            </p><img src="img/individual.png"></td>
-            <td>Baño privado, 40m², Zona de cocinar</td>
-            <td>150€<p>
-            </p>130€<p>
-            </p>100€</td>
-         </tr>
-         <tr>
-            <th colspan="4">Características comunes: Wifi gratis / TV de pantalla plana / Aire acondicionado</th>
-         </tr>
-      </table>
-      </div>     
+    <div id="aaaa">
+            <p id="ea">Reserve su habitación en Hotel Terror</p>
+            <form action="">
+            <li>Tractament desitjat:
+
+                <ul>
+                <li><label for="sr">Sr</label> <input type="radio"
+                name="satisfaction" id="vsat" value="vsat" checked="checked"></li>
+                <li><label for="sat">Sra</label> <input type="radio"
+                name="satisfaction" id="sra" value="sat"></li>
+                <li><label for="dcare">Srta</label> <input type="radio"
+                name="satisfaction" id="srta" value="dcare"></li>
+                </ul>
+            </li>
+            <ul>
+                <li>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" value="" />
+                </li>
+                <li>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="email" id="email" value="" />
+                </li>
+                <li>
+                <label for="telef">Telefono:</label>
+                <input type="tel" name="email" id="email" value="" />
+                </li>
+                <li>
+                <label for="corre">Correo electronico:</label>
+                <input type="mail" name="email" id="email" value="" />
+                </li>
+                <li>
+                <label for="confirmar">Confirmar correo electronico:</label>
+                <input type="mail" name="email" id="email" value="" />
+                </li>
+                <li>
+                <label for="contra">Contraseña:</label>
+                <input type="password" name="email" id="email" value="" />
+                </li>
+                <input type="text" list="mydata" … >
+                <datalist id="mydata">
+                <p>Tipo de hb¡abitación y número de personas</p>
+                <option label="u" value="Habitació individual">
+                <option label="d" value="Habitació doble">
+                <option label="t" value="Habitació doble superior">
+                <option label="t" value="Habitació triple">
+                </datalist>
+                <input type="number" min="1" max="3" >
+                <p>Fecha de la iniciación de la estancia</p>
+                <input type="date">
+                <p>Fecha finalización de la estancia</p>
+                <input type="date">
+                <label for="parqui">Peticiones especiales (no garantidas, pero haremos todo lo possible que se sienta comodo):</label>
+                <li><label for="llit">+1 Cama extra</label> <input type="checkbox" name="llit"
+                id="llit" value="llit"></li>
+                <li><label for="lli">+2 Cama extra</label> <input type="checkbox" name="lli"
+                id="lli" value="lli"></li>
+                <li><label for="cafe">Cafetera</label> <input type="checkbox" name="cafe"
+                id="cafe" value="cafe"></li>
+                <li><label for="ba">Kit de baño</label> <input type="checkbox" name="ba"
+                id="ba" value="ba"></li>
+                <label for="parqui">Parking:</label>
+                <select name="subject" class="medium" id="parqui">
+                <option value="si">Reserva de plaza 8€/noche</option>
+                <option value="no">No quiero reservar plaza</option>
+                </select>
+                <label for="parqui">El hotel dispone de parking gratuito en el exterior.</label>
+                <div></div>
+                <label for="data-hora-arribada">Hora prevista de llegada:</label>
+                <input type="datetime-local" id="data-hora-arribada" name="data_hora_arribada" required>
+                <div></div>
+                <label for="desa">Desayuno:</label>
+                <select name="subject" class="medium" id="desa">
+                <option value="si">Desayuno todos los dias 5€/dia</option>
+                <option value="no">No quiero almuerzo</option>
+                </select>
+
+                <li>
+                <input type="submit" value="submit" />
+                <input type="reset" value="reset" />
+                </li>
+            </ul>
+        </form>
+            
+            </div>
+    
+          
 </body>
 <footer>
     <p class="eee">Actividad realizada por Cinta Castelló Escurriola</p>

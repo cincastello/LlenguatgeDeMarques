@@ -1,5 +1,6 @@
 header{
-    background-color: green
+    background-color: green;
+    display: flex;
 }
 nav{
     text-align: right;
@@ -51,12 +52,11 @@ body{
     background-color: green;
 }
 #estrelleta{
-    margin-left: -30%;
     margin-top: 0.5%;
     align-items:center;
-    display: flex;
     width: 80px;
-    height: auto;
+    height: 80px;
+    margin-left: 10px;
 }
 #iiii{
     background: url(img/casa_encantada.jpg) no-repeat;
@@ -154,4 +154,6 @@ table{
     color: black;
     font-weight: normal;
 }
-
+.gris{
+    background-color: rgb(215, 219, 231);
+}

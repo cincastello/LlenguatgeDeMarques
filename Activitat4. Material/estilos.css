@@ -28,21 +28,20 @@ nav ul {
     justify-content: center;
     padding: 30px;
     white-space: nowrap;
-
-    th{
-        color: white;
-        background-color: rgb(72, 87, 107);
-        vertical-align: middle;
-    }
-
-    td {
-    width: 25%;
-    vertical-align: top;
-    border: 1px solid #ffffff;
-    padding: 15px;
-    border-bottom: 1px solid #ecf0f1;
+}
+th{
+    color: white;
+    background-color: rgb(72, 87, 107);
     vertical-align: middle;
-    }
+}
+
+td {
+width: 25%;
+vertical-align: top;
+border: 1px solid #ffffff;
+padding: 15px;
+border-bottom: 1px solid #ecf0f1;
+vertical-align: middle;
 }
 body{
     margin-left: 0%;

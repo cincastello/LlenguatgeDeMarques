@@ -10,7 +10,7 @@ function ensenya() {
     seccio.style.color = "white";
     text.style.display = "block";
 }
-function restaura() {
+function ensenyam() {
     const seccio = document.getElementById("seccio");
     const text = document.getElementById("textOcult");
 

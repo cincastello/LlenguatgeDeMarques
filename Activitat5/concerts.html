@@ -16,11 +16,22 @@
             <a href="https://cincastello.github.io/LlenguatgeDeMarques/Activitat5/concerts.html">Concerts</a>
             <a href="https://cincastello.github.io/LlenguatgeDeMarques/Activitat5/merge.html">Racó Carpenters</a>
         </nav>
+        <div id="rellotge">Temps: 00:00:00</div>
         <h2>Concerts</h2>
             <p class="p2">Actualment fa concerts per dos continents:</p>
-                <h3 onmouseover=ensenya(this)>Europa</h3>
+                <div id="mouse" onmouseover="canviaColor(this)" onmouseout="restauraColor(this)">
+                <h3>Europa</h3>
+                </div>
                 <p>Estats on sol fer concerts:</p>
                 <p>Regne Unit, Irlanda, França, Alemanya, Bèlgica, Països Baixos, Italia, Suïssa, Noruega, Dinamarca, Suècia</p>
-                <h3 onmouseover=ensenyam(this)>Amèrica</h3>
+
+                <div id="muse" onmouseover="canviaColor(this)" onmouseout="restauraColor(this)">
+                <h3>Amèrica</h3>
+                </div>
+                <div id="seccio" onmouseover="mostrar(this)" onmouseout="amagar(this)">
                 <p>Estats on sol fer concerts:</p>
                 <p>New York, Tennessee, Ontàrio, California, Chile, Argentina, Brazil, Colombia.</p>
+                </div>
+                
+
+</body>

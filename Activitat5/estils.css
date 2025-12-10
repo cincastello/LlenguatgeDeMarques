@@ -39,8 +39,7 @@ p{
 nav{
     display: flex;
     gap: 25px;
-    padding-left: 625px;
-    text-align: center;
+    padding-left: 700px;
 }
 img{
     height: 300px;

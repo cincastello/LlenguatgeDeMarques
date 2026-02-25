@@ -1,0 +1,101 @@
+﻿<pressupostos>
+  <pressupost id="P001" data="2026-02-25" versio="1.0" estat="provisional">
+    <components>
+      <component id="MB001" categoria="placa_base" tipus="Intel B760">
+        <marca>MSI</marca>
+        <model>PRO B760-P DDR4</model>
+        <especificacions><socket>LGA1700</socket></especificacions>
+        <preu moneda="EUR" ivainclos="true">105.00</preu>
+        <proveidor>PcComponentes</proveidor>
+      </component>
+      <component id="CPU001" categoria="processador" tipus="Intel Core i5">
+        <marca>Intel</marca>
+        <model>Core i5-12400F</model>
+        <especificacions><socket>LGA1700</socket><nuclis>6</nuclis><fils>12</fils></especificacions>
+        <preu moneda="EUR" ivainclos="true">145.00</preu>
+        <proveidor>Coolmod</proveidor>
+      </component>
+      <component id="RAM001" categoria="memoria_ram" tipus="DDR4">
+        <marca>Corsair</marca>
+        <model>Vengeance LPX 2x8GB</model>
+        <especificacions><capacitat_total unitat="GB">16</capacitat_total><tipus>DDR4</tipus><velocitat>3600 MHz</velocitat></especificacions>
+        <preu moneda="EUR" ivainclos="true">130.00</preu>
+        <proveidor>Amazon ES</proveidor>
+      </component>
+      <component id="SSD001" categoria="disc_dur" tipus="SSD NVMe">
+        <marca>Samsung</marca>
+        <model>980 Pro</model>
+        <especificacions><capacitat unitat="GB">1000</capacitat><tipus>NVMe M.2</tipus></especificacions>
+        <preu moneda="EUR" ivainclos="true">130.00</preu>
+        <proveidor>PcComponentes</proveidor>
+      </component>
+      <component id="GPU001" categoria="targeta_grafica" tipus="NVIDIA GeForce RTX">
+        <marca>ASUS</marca>
+        <model>Dual GeForce RTX 4060 OC Edition 8GB</model>
+        <especificacions><memoria unitat="GB">8</memoria><tipus_memoria>GDDR6</tipus_memoria></especificacions>
+        <preu moneda="EUR" ivainclos="true">330.00</preu>
+        <proveidor>Coolmod</proveidor>
+      </component>
+      <component id="SOUND001" categoria="targeta_so" tipus="PCIe">
+        <marca>Creative</marca>
+        <model>Sound Blaster Audigy RX</model>
+        <especificacions><interficie>PCIe</interficie><canals>7.1</canals></especificacions>
+        <preu moneda="EUR" ivainclos="true">65.00</preu>
+        <proveidor>Amazon ES</proveidor>
+      </component>
+    </components>
+  </pressupost>
+
+  <pressupost id="P002" data="2026-02-25" versio="1.0" estat="provisional">
+    <components>
+      <component id="MB002" categoria="placa_base" tipus="AMD B650">
+        <marca>ASUS</marca>
+        <model>TUF GAMING B650-PLUS</model>
+        <especificacions><socket>AM5</socket></especificacions>
+        <preu moneda="EUR" ivainclos="true">120.00</preu>
+        <proveidor>PcComponentes</proveidor>
+      </component>
+      <component id="CPU002" categoria="processador" tipus="AMD Ryzen 7">
+        <marca>AMD</marca>
+        <model>Ryzen 7 5700X</model>
+        <especificacions><socket>AM5</socket><nuclis>8</nuclis><fils>16</fils></especificacions>
+        <preu moneda="EUR" ivainclos="true">185.00</preu>
+        <proveidor>Coolmod</proveidor>
+      </component>
+      <component id="FAN001" categoria="refrigeracio" tipus="aire">
+        <marca>Noctua</marca>
+        <model>NH-U12A</model>
+        <preu moneda="EUR" ivainclos="true">50.00</preu>
+        <proveidor>Amazon ES</proveidor>
+      </component>
+      <component id="RAM002" categoria="memoria_ram" tipus="DDR5">
+        <marca>Kingston</marca>
+        <model>FURY Beast RGB 2x16GB</model>
+        <especificacions><capacitat_total unitat="GB">32</capacitat_total><tipus>DDR5</tipus><velocitat>6000 MHz</velocitat></especificacions>
+        <preu moneda="EUR" ivainclos="true">220.00</preu>
+        <proveidor>PcComponentes</proveidor>
+      </component>
+      <component id="SSD002" categoria="disc_dur" tipus="SSD NVMe">
+        <marca>WD</marca>
+        <model>Black SN850X</model>
+        <especificacions><capacitat unitat="GB">1000</capacitat><tipus>NVMe M.2</tipus></especificacions>
+        <preu moneda="EUR" ivainclos="true">150.00</preu>
+        <proveidor>Coolmod</proveidor>
+      </component>
+      <component id="GPU002" categoria="targeta_grafica" tipus="NVIDIA GeForce RTX">
+        <marca>Gigabyte</marca>
+        <model>GeForce RTX 4060 Ti Gaming OC 8G</model>
+        <especificacions><memoria unitat="GB">8</memoria><tipus_memoria>GDDR6</tipus_memoria></especificacions>
+        <preu moneda="EUR" ivainclos="true">400.00</preu>
+        <proveidor>PcComponentes</proveidor>
+      </component>
+      <component id="SOUND002" categoria="targeta_so" tipus="PCIe">
+        <marca>Creative</marca>
+        <model>Sound Blaster AE-7</model>
+        <especificacions><interficie>PCIe</interficie><canals>7.1</canals></especificacions>
+        <preu moneda="EUR" ivainclos="true">150.00</preu>
+        <proveidor>Amazon ES</proveidor>
+      </component>
+    </components>
+  </pressupost>
+</pressupostos>

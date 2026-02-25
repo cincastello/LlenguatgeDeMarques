@@ -1,0 +1,248 @@
+﻿This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<resultadosPartidos>
+<jornada numero="1">
+<liga nombre="Liga BBVA">
+<partido id="sociedad-getafe">
+<local>R. Sociedad</local>
+<visitante>Getafe</visitante>
+<marcador>2 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="valladolid-athletic">
+<local>Valladolid</local>
+<visitante>Athletic</visitante>
+<marcador>1 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="valencia-malaga">
+<local>Valencia</local>
+<visitante>Málaga</visitante>
+<marcador>1 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="barcelona-levante">
+<local>FC Barcelona</local>
+<visitante>Levante</visitante>
+<marcador>7 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="osasuna-granada">
+<local>Osasuna</local>
+<visitante>Granada</visitante>
+<marcador>1 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="madrid-betis">
+<local>R. Madrid</local>
+<visitante>Betis</visitante>
+<marcador>2 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="sevilla-atletico">
+<local>Sevilla</local>
+<visitante>Atlético</visitante>
+<marcador>1 - 3</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="rayo-elche">
+<local>Rayo</local>
+<visitante>Elche</visitante>
+<marcador>3 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="celta-espanyol">
+<local>Celta</local>
+<visitante>Espanyol</visitante>
+<marcador>2 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="almeria-villarreal">
+<local>Almería</local>
+<visitante>Villarreal</visitante>
+<marcador>2 - 3</marcador>
+<estado>finalizado</estado>
+</partido>
+</liga>
+<liga nombre="Liga Adelante"> </liga>
+<menu>
+<opcion id="jornada-1">Jornada-1</opcion>
+</menu>
+</jornada>
+<jornada numero="2">
+<liga nombre="Liga BBVA">
+<partido id="getafe-almeria">
+<local>Getafe</local>
+<visitante>Almería</visitante>
+<marcador>2 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="athletic-osasuna">
+<local>Athletic</local>
+<visitante>Osasuna</visitante>
+<marcador>2 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="elche-sociedad">
+<local>Elche</local>
+<visitante>R. Sociedad</visitante>
+<marcador>1 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="espanyol-valencia">
+<local>Espanyol</local>
+<visitante>Valencia</visitante>
+<marcador>3 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="villarreal-valladolid">
+<local>Villarreal</local>
+<visitante>Valladolid</visitante>
+<marcador>2 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="atletico-rayo">
+<local>Atlético</local>
+<visitante>Rayo</visitante>
+<marcador>5 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="malaga-barcelona">
+<local>Málaga</local>
+<visitante>FC Barcelona</visitante>
+<marcador>0 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="levante-sevilla">
+<local>Levante</local>
+<visitante>Sevilla</visitante>
+<marcador>0 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="betis-celta">
+<local>Betis</local>
+<visitante>Celta</visitante>
+<marcador>1 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="granada-madrid">
+<local>Granada</local>
+<visitante>R. Madrid</visitante>
+<marcador>0 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+</liga>
+<liga nombre="Liga Adelante"> </liga>
+<menu>
+<opcion id="jornada-2">Jornada-2</opcion>
+</menu>
+</jornada>
+<jornada numero="3">
+<liga nombre="Liga BBVA">
+<partido id="rayo-levante">
+<local>Rayo</local>
+<visitante>Levante</visitante>
+<marcador>1 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="almeria-elche">
+<local>Almería</local>
+<visitante>Elche</visitante>
+<marcador>2 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="celta-granada">
+<local>Celta</local>
+<visitante>Granada</visitante>
+<marcador>1 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="valladolid-getafe">
+<local>Valladolid</local>
+<visitante>Getafe</visitante>
+<marcador>1 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="osasuna-villarreal">
+<local>Osasuna</local>
+<visitante>Villarreal</visitante>
+<marcador>0 - 3</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="madrid-athletic">
+<local>R. Madrid</local>
+<visitante>Athletic</visitante>
+<marcador>3 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="espanyol-betis">
+<local>Espanyol</local>
+<visitante>Betis</visitante>
+<marcador>0 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="sociedad-atletico">
+<local>R. Sociedad</local>
+<visitante>Atlético</visitante>
+<marcador>1 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="valencia-barcelona">
+<local>Valencia</local>
+<visitante>FC Barcelona</visitante>
+<marcador>2 - 3</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="sevilla-malaga">
+<local>Sevilla</local>
+<visitante>Málaga</visitante>
+<marcador>2 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+</liga>
+<liga nombre="Liga Adelante"> </liga>
+<menu>
+<opcion id="jornada-3">Jornada-3</opcion>
+</menu>
+</jornada>
+<jornada numero="4">
+<liga nombre="Liga BBVA">
+<partido id="atletico-almeria">
+<local>Atlético</local>
+<visitante>Almería</visitante>
+<marcador>4 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="barcelona-sevilla">
+<local>FC Barcelona</local>
+<visitante>Sevilla</visitante>
+<marcador>3 - 2</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="granada-espanyol">
+<local>Granada</local>
+<visitante>Espanyol</visitante>
+<marcador>0 - 1</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="malaga-rayo">
+<local>Málaga</local>
+<visitante>Rayo</visitante>
+<marcador>5 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+<partido id="elche-valladolid">
+<local>Elche</local>
+<visitante>Valladolid</visitante>
+<marcador>0 - 0</marcador>
+<estado>finalizado</estado>
+</partido>
+</liga>
+<liga nombre="Liga Adelante"> </liga>
+<menu>
+<opcion id="jornada-4">Jornada-4</opcion>
+</menu>
+</jornada>
+<clasificacionBoto> Clasificación </clasificacionBoto>
+<calendarioBoto> Calendario </calendarioBoto>
+<resultadosBotoSelecionado> Resultados </resultadosBotoSelecionado>
+</resultadosPartidos>

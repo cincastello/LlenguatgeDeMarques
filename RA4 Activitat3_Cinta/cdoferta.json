@@ -1,0 +1,58 @@
+{
+"CDsEnOferta" : [
+{
+"musicaId" : "1",
+"titulo" : "Still got the blues",
+"artista" : "Gary Moore",
+"pais" : "UK",
+"compañiaDiscografica" : "Virgin Records",
+"precio" : "10.20",
+"añoPublicacion" : "1990"
+},
+{
+"musicaId" : "2",
+"titulo" : "One night only",
+"artista" : "Bee Gees",
+"pais" : "UK",
+"compañiaDiscografica" : "Polydor",
+"precio" : "10.90",
+"añoPublicacion" : "1998"
+},
+{
+"musicaId" : "3",
+"titulo" : "When a man loves a woman",
+"artista" : "Percy Sledge",
+"pais" : "USA",
+"compañiaDiscografica>" : "Atlantic",
+"precio" : "8.70",
+"añoPublicacion" : "1987"
+},
+{
+"musicaId" : "4",
+"titulo" : "Big Willie style",
+"artista" : "Will Smith",
+"pais" : "USA",
+"compañiaDiscografica" : "Columbia",
+"precio" : "9.90",
+"añoPublicacion" : "1997"
+},
+{
+"musicaId" : "5",
+"titulo" : "La cancin de Juan Perro",
+"artista" : "Radio Futura",
+"pais" : "España",
+"compañiaDiscografica" : "Sony Music-Ariola",
+"precio" : "9.90",
+"añoPublicacion" : "1987"
+},
+{
+"musicaId" : "6",
+"titulo" : "The dock of the bay",
+"artista" : "Otis Redding",
+"pais" : "usa",
+"compañiaDiscografica" : "Atlantic",
+"precio" : "7.90",
+"añoPublicacion" : "1987"
+}
+]
+}

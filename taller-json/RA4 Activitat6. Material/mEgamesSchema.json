@@ -1,0 +1,42 @@
+{
+  "type":"object",
+  "properties":{
+     "Classificació":{
+       "type":"array",
+       "items": {"type": "object",
+       "properties":{
+          "posició":{
+           "type":"integer"
+          },
+          "nick-player":{
+           "type":"string"
+          },
+          "personatge":{
+           "type":"string"
+          },
+          "color":{
+           "type":"string"
+          },
+          "Temps":{
+           "type":"string"
+          },
+          "voltes":{
+           "type":"integer"
+          },
+          "Accidents":{
+           "type":"integer"
+          },
+          "Nitros":{
+           "type":"integer"
+          },
+          "Rookie":{
+           "type":"string"
+          }
+        }
+      },
+      "required":["posició", "nick-player", "personatge", "Temps", "voltes", "Accidents" ]
+    }  
+  },
+  "minItems": 2,
+  "maxItems": 20
+}
